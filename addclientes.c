@@ -9,13 +9,13 @@ void insere_clientes(FILE* out) {
     Cliente* clientes[QTD_CLIENTES];
 
     char* nomes[50] = {
-   "João", "Maria", "Pedro", "Ana", "Paulo", "Carla", "Ricardo", "Fernanda",
+   "Joao", "Maria", "Pedro", "Ana", "Paulo", "Carla", "Ricardo", "Fernanda",
    "Lucas", "Juliana", "Leonardo", "Bianca", "Felipe", "Camila", "Bruno",
-   "Mariana", "Thiago", "Eduarda", "André", "Letícia", "Rodrigo", "Patrícia",
-   "Sérgio", "Cristina", "Maurício", "Vera", "Vinícius", "Sabrina", "Rafael",
-   "Marta", "Guilherme", "Natália", "Daniel", "Larissa", "Rogério", "Isabela",
-   "Gustavo", "Caroline", "Fábio", "Aline", "Marcelo", "Roberta", "Alexandre",
-   "Renata", "Diego", "Lúcia", "Roberto", "Flávia", "Antônio", "Helena"
+   "Mariana", "Thiago", "Eduarda", "Andre", "Leticia", "Rodrigo", "Patricia",
+   "Sergio", "Cristina", "Mauricio", "Vera", "Vinicius", "Sabrina", "Rafael",
+   "Marta", "Guilherme", "Natalia", "Daniel", "Larissa", "Rogerio", "Isabela",
+   "Gustavo", "Caroline", "Fabio", "Aline", "Marcelo", "Roberta", "Alexandre",
+   "Renata", "Diego", "Lucia", "Roberto", "Flavia", "Antonio", "Helena"
     };
 
     // Vetor com 50 datas de nascimento
